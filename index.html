@@ -7,12 +7,13 @@
     <title>Projeto Bootstrap</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <!-- Navbar -->
     <header>
-        <nav class="navbar navbar-expand-sm navbar-dark bg-success">
+        <nav style="z-index: 999;" class="w-100 navbar navbar-expand-sm bg-success navbar-dark position-fixed">
             <div class="container-fluid">
                 <a href="#" class="navbar-brand">
                     <img src="img/logo.jpg" alt="Logo" style="width:40px;" class="rounded-pill">
@@ -65,45 +66,84 @@
     <!-- Main -->
     <main>
         <div class="container mt-5">
-            <h2 class="text-center mb-4 text-success">Descubra o Caminho para uma Vida Saudável com Nossa Equipe de Nutricionistas
-            </h2>
-            <p>Na correria do dia a dia, encontrar o equilíbrio entre uma alimentação saudável e as demandas do
-                cotidiano pode ser um desafio. É aí que entra a nossa equipe de nutricionistas especializados, prontos
-                para guiá-lo(a) em direção a uma vida mais saudável e vibrante.</p>
-            <h3 class="text-secondary">Avaliação Personalizada</h3>
-            <p>Cada indivíduo é único, e nossa abordagem reflete essa realidade. Antes de qualquer recomendação,
-                realizamos uma avaliação completa do seu histórico médico, hábitos alimentares e estilo de vida. Essa
-                análise personalizada nos permite desenvolver um plano nutricional específico para suas necessidades e
-                objetivos.</p>
-            <h3 class="text-secondary">Planos Alimentares Sob Medida</h3>
-            <p>Com base na sua avaliação individual, criamos planos alimentares adaptados às suas preferências,
-                restrições dietéticas e metas de saúde. Seja você um atleta procurando maximizar seu desempenho, alguém
-                em busca de perda de peso sustentável ou simplesmente alguém que deseja melhorar sua saúde geral,
-                estamos aqui para ajudar.</p>
-            <h3 class="text-secondary">Educação Nutricional Contínua</h3>
-            <p>Nosso compromisso vai além de fornecer um plano alimentar. Queremos capacitá-lo(a) com o conhecimento
-                necessário para fazer escolhas alimentares conscientes e sustentáveis a longo prazo. Oferecemos sessões
-                educativas regulares, onde discutimos os princípios da nutrição, lemos rótulos de alimentos e exploramos
-                estratégias para superar desafios comuns.</p>
-            <h3 class="text-secondary">Acompanhamento Personalizado</h3>
-            <p>O caminho para uma saúde ideal pode ter seus altos e baixos, e nossa equipe está aqui para oferecer
-                suporte contínuo ao longo de sua jornada. Realizamos acompanhamentos periódicos para monitorar seu
-                progresso, ajustar seu plano conforme necessário e fornecer incentivo e motivação quando você mais
-                precisar.</p>
-            <h3 class="text-secondary">Nutrição para Todos os Estágios da Vida</h3>
-            <p>Seja você um atleta de elite, uma mãe ocupada, um adulto em busca de uma dieta mais equilibrada ou um
-                idoso que busca manter a saúde e a vitalidade, nossa equipe de nutricionistas tem a experiência e o
-                conhecimento para atender às suas necessidades em todos os estágios da vida.</p>
-            <p>Entre em contato conosco para
-                marcar sua consulta inicial e dar o primeiro passo em direção a uma nutrição personalizada e eficaz.</p>
+            <hr>
+            <h2 class="text-center mb-4 text-success pt-2 pb-2">Descubra o Caminho para uma Vida Saudável com Nossa
+                Equipe de Especialistas</h2>
+            <div class="row m-auto md-3">
+                <div class="col-md-4">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="img/nutri.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Avaliações Especializadas</h4>
+                            <p class="card-text">Nossos especialistas garantem uma avaliação técnica especializada e
+                                única para você.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="img/treino.webp" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Treinos Personalizados</h4>
+                            <p class="card-text">Nossos treinos são feitos especialmente para atender todos os seus
+                                requisitos e exigências, trazendo o máximo de conforto.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-2">
+                        <img class="card-img-top" src="img/atend.jpg" alt="Card image">
+                        <div class="card-body">
+                            <h4 class="card-title">Atendimento por Vídeochamada</h4>
+                            <p class="card-text">Oferecemos também atendimento online por vídeochamada para maior
+                                comodidade e acessibilidade de nossos clientes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section>
+            <div id="greenContainer" class="container-fluid mt-5 text-white">
+                <h1 class="pt-3 text-center">Como Funcionam Nossas Consultas?</h1>
+                <div class="row mt-5 mb-5">
+                    <div class="col-md-6 w">
+                        <div class="cel1 text-center">
+                            <h3>1. Pré Consulta</h3>
+                            <p>Seu atendimento já começa após a marcação da consulta, e será enviado um formulário para
+                                que conheçamos melhor sua rotina, treino e objetivos.</p>
+                            <h3>2. Avaliação Física</h3>
+                            <p>Será realizada uma avaliação física completa sua, começa com a medição do peso, altura e
+                                circunferências corporais para calcular o índice de massa corporal (IMC) e a porcentagem
+                                de gordura corporal.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="cel2 text-center">
+                            <h3>3. Atendimento</h3>
+                            <p>Nessa parte, será montado seu treino e também sua dieta. Você poderá retirar todas as suas dúvidas a respeito da alimentação e do treino.</p>
+                            <h3>4. Finalização</h3>
+                            <p>Por fim, nesta parte iremos estabelecer as metas, prescrever suplementação, se necessário, e planejar sua estratégia alimentar.</p>
+                        </div>
+                    </div>
+                    <div class="text-center mt-5 mb-5">
+                        <button type="button" class="btn btn-outline-light">Agende sua consulta.</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <div class="mt-auto py-3 text-secondary text-center">
+            <h1 class="pb-2">Informações de Contato</h1>
+            <p>Av. Clara Gianotti de Souza, Registro-SP</p>
+            <p>WhatsApp: 3333-2222</p>
         </div>
     </main>
-  <!-- Rodapé -->
-  <footer class="footer mt-auto py-3 bg-dark text-white">
-    <div class="container text-center">
-      <span>Sports Nutrition, 2024</span>
-    </div>
-  </footer>
+
+    <!-- Rodapé -->
+
+    <footer class="footer mt-auto py-3 bg-dark text-white text-center">
+        <span>Sports Nutrition, 2024</span>
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
